@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ABOUT SECTION */
+
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-image: url('./images/griffith.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+}
+
+.about-item {
+  display: flex;
+  justify-content: center;
+}
+
+.about-item-2 {
+  align-items: center;
+}
+
+.about-image {
+  width: 80%;
+  /* height: 80%; */
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 1rem #11FFEE solid;
+}
