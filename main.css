@@ -24,7 +24,7 @@
 }
 
 .navbar-brand:hover {
-  text-decoration: underline #11FFEE;
+  text-decoration: underline #11FFEE 5px;
 }
 
 .nav-link:hover {
@@ -74,6 +74,7 @@
   line-height: 2rem;
   color:rgb(52, 78, 67);
   border: 1rem #11FFEE groove;
+  margin-bottom: 1rem;
   padding: .7rem;
   border-radius:25%;
   -webkit-border-radius:25%;
