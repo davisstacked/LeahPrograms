@@ -51,8 +51,7 @@
 
 .about-container {
   display: flex;
-  width: 50%;
-  /* height: 70vh; */
+  width: 70%;
   align-items: center;
   justify-content: center;
 }
@@ -65,9 +64,10 @@
   align-items: center;
   /* background-color: blue; */
   text-align: center;
+  padding: 1rem;
 }
 
-.about-item p {
+.about-info {
   background-color: rgb(254, 250, 247);
   font-family: 'Merienda', cursive;
   font-size:larger;
@@ -75,7 +75,7 @@
   color:rgb(52, 78, 67);
   border: 1rem #11FFEE groove;
   margin-bottom: 1rem;
-  padding: .7rem;
+  padding: 1rem;
   border-radius:25%;
   -webkit-border-radius:25%;
   -moz-border-radius:25%;
@@ -84,7 +84,7 @@
 }
 
 .about-image {
-  height: 45vh;
+  height: 50vh;
   margin: 1rem;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -94,11 +94,16 @@
   border: 1rem #11FFEE groove;
 }
 
+.devicons {
+  font-size: 2rem;
+  margin-top: .5rem;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 1000px) {
   /* ABOUT SECTION */
 
   .about-container {
-    width: 80%;
+    width: 90%;
   }
 }
