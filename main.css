@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-size:;
 }
 
 /* ABOUT SECTION */
@@ -12,70 +13,55 @@
   background-image: url('./images/griffith.jpg');
   background-size: cover;
   background-position: center center;
-  height: 80vh;
   align-items: center;
   justify-content: center;
 }
 
 .about-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* background-color: pink; */
-  margin: 5px;
-  height: 80%;
-  width: 90%;
-  /* align-items: center; */
+  display: flex;
+  width: 50%;
+  /* height: 70vh; */
+  align-items: center;
   justify-content: center;
 }
 
 .about-item {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  background-color: blue;
-  margin: 5px;
-}
-
-.about-item p { 
-  background-color: lavender;
-  height:fit-content;
-}
-
-.about-item-1 {
-  
-}
-
-.about-item-2 {
+  border: 1rem 0 1rem 0;
   align-items: center;
+  /* background-color: blue; */
+  text-align: center;
+}
+
+.about-item p {
+  background-color: rgb(203, 211, 223);
+  border: 1rem #11FFEE groove;
+  padding: 1rem;
+  border-radius:25%;
+  -webkit-border-radius:25%;
+  -moz-border-radius:25%;
+  -ms-border-radius:25%;
+  -o-border-radius:25%;
 }
 
 .about-image {
-  max-width: 100%;
-  max-height: 100%;
-  /* width: 80%;
-  height: auto; */
+  height: 45vh;
+  margin: 1rem;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  border: 1rem #11FFEE solid;
+  border: 1rem #11FFEE groove;
 }
 
 /* MEDIA QUERIES */
 @media (max-width: 1000px) {
-
   /* ABOUT SECTION */
 
-  .about-section {
-    height: 100%;
-  }
   .about-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .about-image {
-    min-width: 0;
-    max-width: 50%;
+    width: 80%;
   }
 }
