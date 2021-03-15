@@ -2,7 +2,39 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-size:;
+}
+
+/* NAVBAR */
+
+.navbar {
+  padding: 0;
+}
+
+.nav-link {
+  /* margin-left: 3rem; */
+  font-size: larger;
+  font-family: 'Merienda', cursive;
+  margin-left: .2rem;
+}
+
+.navbar-brand {
+  font-size:xx-large;
+  font-family: 'Cormorant Unicase', serif;
+  padding-left: 1rem;
+}
+
+.navbar-brand:hover {
+  text-decoration: underline #11FFEE;
+}
+
+.nav-link:hover {
+  border: 2px #11FFEE groove;
+  margin-bottom: 0;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 /* ABOUT SECTION */
@@ -36,9 +68,13 @@
 }
 
 .about-item p {
-  background-color: rgb(203, 211, 223);
+  background-color: rgb(254, 250, 247);
+  font-family: 'Merienda', cursive;
+  font-size:larger;
+  line-height: 2rem;
+  color:rgb(52, 78, 67);
   border: 1rem #11FFEE groove;
-  padding: 1rem;
+  padding: .7rem;
   border-radius:25%;
   -webkit-border-radius:25%;
   -moz-border-radius:25%;
