@@ -99,6 +99,22 @@
   margin-top: .5rem;
 }
 
+/* PROJECTS */
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  display: flex;
+  background-color:lightpink;
+}
+
+.project-image {
+  height: 45vh;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 1000px) {
   /* ABOUT SECTION */
