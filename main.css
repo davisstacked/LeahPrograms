@@ -144,7 +144,7 @@
 }
 
 .project-header {
-  font-family: 'Cormorant Unicase', serif;
+  font-family: 'Merienda', cursive;
   font-size: 3rem;
   margin: 2rem 0 2rem 0;
   color: rgb(56, 35, 35);
@@ -157,7 +157,7 @@
 .project {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  border: 1rem #11FFEE groove;
+  border: 1rem hotpink groove;
 }
 
 .project-info {
@@ -169,12 +169,16 @@
   margin-right: 1rem;
 }
 
-.project-image {
+.project-image-container {
   height: 70vh;
   background-color: hotpink;
   display: flex;
   justify-content: center;
   margin-right: 1rem;
+}
+
+.project-image {
+  max-height: 100%;
 }
 
 .tech-used {
@@ -217,8 +221,18 @@ span {
     flex-direction: column;
   }
 
+  .project-image-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
   .project-image {
     margin-right: 0;
+    height: 65vh;
+    /* max-width: 100%; */
+
   }
 
   .project-info {
