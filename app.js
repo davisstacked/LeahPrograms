@@ -1,8 +1,17 @@
-const navButton = document.getElementsByClassName('.navbar-toggler');
-const main = document.querySelector('main');
+// SELECTORS
+const navButton = document.querySelector('.navbar');
+const main = document.querySelector(".main");
 
-console.log(main);
+console.log(main.classList);
 
-navButton.addEventListener('click', function () {
+// FUNCTIONS
+function grow() {
+  return main.classList.toggle("main-grow");
+  console.log(main.classList.toggle("main-grow"));
+}
 
-})
+
+// EVENT LISTENERS
+const handleGrow = navButton.addEventListener('click', () => {
+  grow();
+});

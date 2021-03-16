@@ -4,8 +4,12 @@
   padding: 0;
 }
 
-main {
+.main {
   padding-top: 58px;
+}
+
+.main-grow {
+  padding-top: 200px;
 }
 
 /* NAVBAR */
@@ -13,8 +17,7 @@ main {
 .navbar {
   position: fixed;
   width: 100%;
-  padding: 0;
-
+  padding-right: 1rem;
 }
 
 .nav-link {
