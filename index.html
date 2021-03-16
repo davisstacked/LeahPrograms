@@ -9,6 +9,8 @@
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- JS -->
+  <script src="./app.js"></script>
   <!-- DEVICONS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -25,7 +27,7 @@
 </head>
 <body>
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #11FFEE;">
     <a class="navbar-brand" href="#">Leah Davis</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -44,69 +46,71 @@
       </ul>
     </div>
   </nav>
-  <!-- ABOUT -->
-  <div id="about" class="about-section">
-    <div class="about-container">
-      <div class="about-item">
-        <img class="about-image" src="./images/Leah New Linkedin copy.jpg" alt="headshot">
-        <div class="about-info">
-          <p>
-            Leah Davis is a software engineer with a comedy writer and yoga instructor background. <br>
-            Her current love is React. It's a fun and complicated game.
-          </p>
-          <div class="devicons">
-            <i class="devicon-react-original-wordmark colored"></i>
-            <i class="devicon-javascript-plain colored"></i>
-            <i class="devicon-html5-plain-wordmark colored"></i>
-            <i class="devicon-css3-plain-wordmark colored"></i>
-            <i class="devicon-github-plain-wordmark colored"></i>
-            <i class="devicon-git-plain-wordmark colored"></i>
-            <i class="devicon-mongodb-plain-wordmark colored"></i>
-            <i class="devicon-nodejs-plain colored"></i>
-            <i class="devicon-express-original-wordmark colored"></i>
-            <i class="devicon-bootstrap-plain-wordmark colored"></i>
-            <!-- <i class="devicon-materialui-plain colored"></i>
-            <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
-            <i class="devicon-heroku-original-wordmark colored"></i> -->
+  <main>
+    <!-- ABOUT -->
+    <div id="about" class="about-section">
+      <div class="about-container">
+        <div class="about-item">
+          <img class="about-image" src="./images/Leah New Linkedin copy.jpg" alt="headshot">
+          <div class="about-info">
+            <p>
+              Leah Davis is a software engineer with a comedy writer and yoga instructor background. <br>
+              Her current love is React. It's a fun and complicated game.
+            </p>
+            <div class="devicons">
+              <i class="devicon-react-original-wordmark colored"></i>
+              <i class="devicon-javascript-plain colored"></i>
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-github-plain-wordmark colored"></i>
+              <i class="devicon-git-plain-wordmark colored"></i>
+              <i class="devicon-mongodb-plain-wordmark colored"></i>
+              <i class="devicon-nodejs-plain colored"></i>
+              <i class="devicon-express-original-wordmark colored"></i>
+              <i class="devicon-bootstrap-plain-wordmark colored"></i>
+              <!-- <i class="devicon-materialui-plain colored"></i>
+              <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+              <i class="devicon-heroku-original-wordmark colored"></i> -->
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- PROJECTS -->
+    <div id="projects" class="projects-section">
+      <h1 class="project-header">PROJECTS</h1>
+      <div class="projects-container">
+        <div class="project">
+          <div class="project-image">
+            <a target="_blank" href="https://www.itsgonnabegreat.org/">
+              <img class="project-image" src="./images/ItsGonnaBeGreat copy.jpg" alt="It's Gonna Be Great! website">
+            </a>
           </div>
-      </div>
-      </div>
-    </div>
-  </div>
-  <!-- PROJECTS -->
-  <div id="projects" class="projects-section">
-    <h1 class="project-header">PROJECTS</h1>
-    <div class="projects-container">
-      <div class="project">
-        <div class="project-image">
-          <a target="_blank" href="https://www.itsgonnabegreat.org/">
-            <img class="project-image" src="./images/ItsGonnaBeGreat copy.jpg" alt="It's Gonna Be Great! website">
-          </a>
-        </div>
-        <div class="project-info">
-          <h1 class="title great-title">IT'S GONNA BE GREAT!</h1>
-          <h2 class="subtitle">
-              It's Gonna Be Great! is a frontend, mobile-first, responsive design website promoting the sale of my teen romantic-comedy screenplay It’s Gonna Be Great! 
-          </h2>
-            <p class="tech-used"><strong>TECHNOLOGIES USED:</strong>
-              HTML, CSS, Github, Bootstrap</p>
-          </h2>
-          <div class="project-buttons">
-            <a class="button" href="https://github.com/davisstacked/ItsGonnaBeGreat" target="_blank">
-                GitHub </a>
-            <a class="button" href="https://www.itsgonnabegreat.org/" target="_blank">
-                View Project</a>
-        </div>
+          <div class="project-info">
+            <h1 class="title great-title">IT'S GONNA BE GREAT!</h1>
+            <h2 class="subtitle">
+                It's Gonna Be Great! is a frontend, mobile-first, responsive design website promoting the sale of my teen romantic-comedy screenplay <span>"It’s Gonna Be Great!" </span>
+            </h2>
+              <p class="tech-used"><strong>TECHNOLOGIES USED:</strong>
+                HTML, CSS, Github, Bootstrap</p>
+            </h2>
+            <div class="project-buttons">
+              <a class="button" href="https://github.com/davisstacked/ItsGonnaBeGreat" target="_blank">
+                  GitHub </a>
+              <a class="button" href="https://www.itsgonnabegreat.org/" target="_blank">
+                  View Project</a>
+          </div>
 
+          </div>
         </div>
+        <!-- <div class="project"></div>
+        <div class="project"></div>
+        <div class="project"></div>
+        <div class="project"></div>
+        <div class="project"></div> -->
       </div>
-      <!-- <div class="project"></div>
-      <div class="project"></div>
-      <div class="project"></div>
-      <div class="project"></div>
-      <div class="project"></div> -->
     </div>
-  </div>
   <!-- FOOTER -->
+  </main>
 </body>
 </html>

@@ -4,10 +4,17 @@
   padding: 0;
 }
 
+main {
+  padding-top: 58px;
+}
+
 /* NAVBAR */
 
 .navbar {
+  position: fixed;
+  width: 100%;
   padding: 0;
+
 }
 
 .nav-link {
@@ -163,12 +170,16 @@
   text-decoration: underline solid 2px hotpink;
 }
 
+span {
+  font-style: italic;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 1000px) {
   /* ABOUT SECTION */
 
   .about-container {
-    width: 90%;
+    width: 100%;
   }
 
   /* PROJECTS SECTION */
