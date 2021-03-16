@@ -99,7 +99,7 @@
   font-size:larger;
   line-height: 2rem;
   color: rgb(115, 80, 68);
-  border: 1rem #11FFEE groove;
+  border: 1rem rgb(133,144,56) groove;
   width: 70%;
   margin-bottom: 1rem;
   padding: 1rem;
@@ -118,7 +118,7 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  border: 1rem #11FFEE groove;
+  border: 1rem rgb(23, 92, 155) groove;
 }
 
 .devicons {
