@@ -34,10 +34,13 @@
 }
 
 .nav-link {
-  /* margin-left: 3rem; */
   font-size: larger;
   font-family: 'Merienda', cursive;
   margin-left: .2rem;
+}
+
+.brown {
+  color: rgb(59, 36, 31);
 }
 
 .navbar-brand {
@@ -47,10 +50,11 @@
 }
 
 .navbar-brand:hover {
-  text-decoration: underline purple 5px;
+  text-decoration: underline rgb(254, 250, 247) 1px;
 }
 
-.nav-link:hover {
+.nav-link:hover
+.nav-link:active {
   border: 2px rgb(254, 250, 247) groove;
   margin-bottom: 0;
   border-radius: 50%;
@@ -85,7 +89,6 @@
   justify-content: center;
   border: 1rem 0 1rem 0;
   align-items: center;
-  /* background-color: blue; */
   text-align: center;
   padding: 1rem;
 }
@@ -95,8 +98,9 @@
   font-family: 'Merienda', cursive;
   font-size:larger;
   line-height: 2rem;
-  color:rgb(52, 78, 67);
+  color: rgb(115, 80, 68);
   border: 1rem #11FFEE groove;
+  width: 70%;
   margin-bottom: 1rem;
   padding: 1rem;
   border-radius:25%;
@@ -143,6 +147,7 @@
   font-family: 'Cormorant Unicase', serif;
   font-size: 3rem;
   margin: 2rem 0 2rem 0;
+  color: rgb(56, 35, 35);
 }
 
 .title {
@@ -196,6 +201,10 @@ span {
 
   .about-container {
     width: 100%;
+  }
+
+  .about-info {
+    width: 80%;
   }
 
   /* PROJECTS SECTION */
