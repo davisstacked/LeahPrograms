@@ -6,10 +6,29 @@
 
 .main {
   padding-top: 58px;
+  transition: 250ms ease-in;
+  -webkit-transition: 250ms ease-in;
+  -moz-transition: 250ms ease-in;
+  -ms-transition: 250ms ease-in;
+  -o-transition: 250ms ease-in;
 }
 
 .main-grow {
-  padding-top: 200px;
+  transform: translateY(132px);
+  /*padding-top: 200px;
+  */-webkit-transform: translateX(200px);
+  -moz-transform: translateY(132px);
+  -ms-transform: translateY(132px);
+  -o-transform: translateY(132px);
+  -webkit-transform: translateY(132px);
+}
+
+.main-shrink {
+  transition: 250ms ease-out;
+  -webkit-transition: 250ms ease-out;
+  -moz-transition: 250ms ease-out;
+  -ms-transition: 250ms ease-out;
+  -o-transition: 250ms ease-out;
 }
 
 /* NAVBAR */
@@ -17,7 +36,7 @@
 .navbar {
   position: fixed;
   width: 100%;
-  padding-right: 1rem;
+  padding: .2rem 1rem .2rem 0;
 }
 
 .nav-link {
