@@ -262,6 +262,10 @@ span {
     height: 55vh;
     /* max-width: 100%; */
   }
+
+  .project-info-container {
+    justify-content: flex-start;
+  }
   
   .project-info {
     margin: 1rem 1rem 1rem 1rem;
