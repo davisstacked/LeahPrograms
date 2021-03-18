@@ -47,7 +47,7 @@
 
 .navbar-brand {
   font-size:xx-large;
-  font-family: 'Cormorant Unicase', serif;
+  font-family: 'Playfair Display', serif;
   padding-left: 1rem;
 }
 
@@ -214,7 +214,7 @@
 }
 
 .title {
-  font-family: 'Cormorant Unicase', serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .project-buttons {
@@ -227,7 +227,7 @@
 .tech-used {
   display: flex;
   flex-direction: column;
-  font-family: 'Cormorant Unicase', serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .button {
@@ -285,7 +285,9 @@ span {
   }
   
   .project-info {
-    margin: 1rem 1rem 1rem 1rem;
+    justify-content: flex-start;
+    height: auto;
+    margin: 2rem 1rem 1rem 1rem;
   }
 }
 
