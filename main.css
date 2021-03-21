@@ -208,6 +208,22 @@
   background-color: rgb(134, 148, 206);
 }
 
+.yovo-project {
+  border: 1rem rgb(29, 179, 167) groove;
+}
+
+.yovo-image-container {
+  background-color: rgb(29, 179, 167)
+}
+
+.wayfayer-project {
+  border: 1rem rgb(89, 32, 79) groove;
+}
+
+.wayfayer-image-container {
+  background-color: rgb(89, 32, 79);
+}
+
 /* ******************** PROJECT HOVER EFFECT **********************/
 
 .project-image-hover {
@@ -293,6 +309,7 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
   }
   
   .project-image-container {
