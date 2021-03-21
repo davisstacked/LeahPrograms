@@ -55,8 +55,7 @@
   text-decoration: underline rgb(254, 250, 247) 1px;
 }
 
-.nav-link:hover
-.nav-link:active {
+.nav-link:hover {
   border: 2px rgb(254, 250, 247) groove;
   margin-bottom: 0;
   border-radius: 50%;
@@ -194,10 +193,18 @@
 }
 
 .github-finder-project {
-  border: 1rem rgb(134, 148, 206) groove;
+  border: 1rem rgb(51, 51, 51) groove;
 }
 
 .github-finder-image-container {
+  background-color: rgb(51, 51, 51);
+}
+
+.collectors-guild-project {
+  border: 1rem rgb(134, 148, 206) groove;
+}
+
+.collectors-guild-image-container {
   background-color: rgb(134, 148, 206);
 }
 
@@ -302,17 +309,13 @@ span {
     width: auto;
   }
 
-  .rectangle-project {
-    height: 90%;
-  }
-
   .rectangle-project-image-container {
     width: 100%;
   }
 
   .rectangle-project-image {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: auto;
   }
 
   .project-info-container {
