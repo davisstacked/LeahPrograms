@@ -286,6 +286,34 @@ span {
   font-style: italic;
 }
 
+/* ***************** FOOTER ******************** */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(112, 169, 218);
+  padding: 1rem 0 1rem 0;
+  -webkit-box-shadow: 5px 5px 15px -1px black; 
+  box-shadow: 5px 5px 15px -1px black; 
+}
+
+.social-icons-container {
+  display: flex;
+}
+
+.footer-icon {
+  font-size: 50px;
+  line-height: 24px;
+  margin-right: .8rem;
+}
+
+.footer-icon:hover {
+  text-decoration: none; 
+}
+
 /******************* MEDIA QUERIES ***************/
 
 @media (max-width: 1000px) {
