@@ -315,8 +315,16 @@ footer {
 }
 
 /* ***************** RESUME ******************** */
+
+.resume-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .resume {
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: center;
   padding: 4rem 0 2rem 0;
@@ -404,10 +412,13 @@ footer {
 /* Max-width: 500px */
 
 @media (max-width: 500px) {
+
+  /* ABOUT */
   .about-image {
     height: 35vh;
   }
 
+  /* PROJECT */
   .project-image {
     height: auto;
     width: 50vw;
@@ -421,6 +432,14 @@ footer {
   .rectangle-project-image-container {
     padding: 10px;
   }
+
+  /* RESUME */
+
+  /* .resume-pdf {
+    width: 90vw;
+    height: 100%;
+    margin-top: 2rem;
+  } */
 
 }
 
