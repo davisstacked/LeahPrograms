@@ -314,6 +314,21 @@ footer {
   text-decoration: none; 
 }
 
+/* ***************** RESUME ******************** */
+.resume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0 2rem 0;
+  background-color: rgb(59, 36, 31);
+}
+
+.resume-pdf {
+  width: 90vw;
+  height: 90vh;
+  margin-top: 2rem;
+}
+
 /******************* MEDIA QUERIES ***************/
 
 @media (max-width: 1000px) {
