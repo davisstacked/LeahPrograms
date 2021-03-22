@@ -352,7 +352,7 @@ footer {
     display: flex;
     margin-right: 0;
     height: 100%;
-    width: 80vw;
+    width: 100%;
     justify-content: center;
     align-items: center;
   }
@@ -386,14 +386,16 @@ footer {
   }
 }
 
+/* Max-width: 500px */
+
 @media (max-width: 500px) {
   .about-image {
     height: 35vh;
   }
 
   .project-image {
-    height: 35vh;
-    width: auto;
+    height: auto;
+    width: 50vw;
   }
 
   .rectangle-project-image {
@@ -401,8 +403,13 @@ footer {
     height: auto;
   }
 
+  .rectangle-project-image-container {
+    padding: 10px;
+  }
+
 }
 
+/* MAX WIDTHS */
 
 @media (min-width: 999px) {
 
@@ -417,3 +424,4 @@ footer {
     padding-top: 58px;
   }
 }
+
