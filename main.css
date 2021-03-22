@@ -317,6 +317,13 @@ footer {
 /******************* MEDIA QUERIES ***************/
 
 @media (max-width: 1000px) {
+
+  /* NAVBAR  */
+
+  .nav-link:hover {
+    border: none;
+    text-decoration: underline rgb(254, 250, 247);
+
   /* ABOUT SECTION */
 
   .about-container {
@@ -392,7 +399,7 @@ footer {
     width: 100%;
     height: auto;
   }
-  
+
 }
 
 
