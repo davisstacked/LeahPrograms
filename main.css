@@ -378,6 +378,17 @@ footer {
   }
 }
 
+@media (max-width: 500px) {
+  .about-image {
+    height: 35vh;
+  }
+
+  .project-image {
+    height: 35vh;
+    width: auto;
+  }
+}
+
 
 @media (min-width: 999px) {
 
