@@ -387,6 +387,12 @@ footer {
     height: 35vh;
     width: auto;
   }
+
+  .rectangle-project-image {
+    width: 100%;
+    height: auto;
+  }
+  
 }
 
 
