@@ -323,6 +323,7 @@ footer {
   .nav-link:hover {
     border: none;
     text-decoration: underline rgb(254, 250, 247);
+  }
 
   /* ABOUT SECTION */
 
