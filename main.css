@@ -320,21 +320,21 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(59, 36, 31);
 }
 
 .resume {
   display: flex;
-  width: 100%;
+  width: 80%;
   align-items: center;
   justify-content: center;
-  padding: 4rem 0 2rem 0;
-  background-color: rgb(59, 36, 31);
+  margin-top: 8rem;
+  margin-bottom: 4rem;
 }
 
 .resume-pdf {
   width: 90vw;
   height: 90vh;
-  margin-top: 2rem;
 }
 
 /******************* MEDIA QUERIES ***************/
@@ -435,11 +435,12 @@ footer {
 
   /* RESUME */
 
-  /* .resume-pdf {
+  .resume-pdf {
     width: 90vw;
-    height: 100%;
+    height: 70vh;
     margin-top: 2rem;
-  } */
+    margin-bottom: 2rem;
+  }
 
 }
 
