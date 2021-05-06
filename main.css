@@ -184,6 +184,14 @@
 
 /* ************* PROJECT INDIVIDUAL STYLING ************/
 
+.unicorn-maze-project {
+  border: 1rem orangered groove;
+}
+
+.unicorn-maze-image-container {
+  background-color: orangered;
+}
+
 .contact-keeper-project {
   border: 1rem rgb(44,167,69) groove;
 }
